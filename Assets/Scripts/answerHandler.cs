@@ -30,7 +30,9 @@ public class answerHandler : MonoBehaviour
         
     }
 
-    
+
+
+
     // sender 0== grey | 1== blue | 2==date
     public void addToScroll(string message, int sender)
     {
@@ -42,19 +44,16 @@ public class answerHandler : MonoBehaviour
                 messageBox = Instantiate(grey) as GameObject;
                 BubbleTextEdit a = messageBox.GetComponent<BubbleTextEdit>();
                 a.text = message;
-                sender++;
                 break;
             case 2:
                 messageBox = Instantiate(date) as GameObject;
                 Text b = messageBox.GetComponent<Text>();
                 b.text = message;
-                sender = 0;
                 break;
             default:
                 messageBox = Instantiate(blue) as GameObject;
                 BubbleTextEdit c = messageBox.GetComponent<BubbleTextEdit>();
                 c.text = message;
-                sender++;
                 break;
         }
         
@@ -76,7 +75,6 @@ public class answerHandler : MonoBehaviour
     {
         Animator ani = answerBox.GetComponent<Animator>();
         ani.SetBool("isHidden", true);
-        addToScroll("yes", BLUE);
     }
 
     public void showAnswerBox()

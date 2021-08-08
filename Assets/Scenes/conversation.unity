@@ -304,14 +304,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1868404583}
-        m_TargetAssemblyTypeName: answerHandler, Assembly-CSharp
-        m_MethodName: hideAnswerBox
-        m_Mode: 1
+      - m_Target: {fileID: 1868404584}
+        m_TargetAssemblyTypeName: TwineHandler, Assembly-CSharp
+        m_MethodName: MakeChoice
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1888,7 +1888,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 31.546753}
+  m_AnchoredPosition: {x: 0, y: 90}
   m_SizeDelta: {x: 0, y: 116.906494}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!224 &1098531117 stripped
@@ -2153,10 +2153,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1868404583}
-        m_TargetAssemblyTypeName: answerHandler, Assembly-CSharp
-        m_MethodName: hideAnswerBox
-        m_Mode: 1
+      - m_Target: {fileID: 1868404584}
+        m_TargetAssemblyTypeName: TwineHandler, Assembly-CSharp
+        m_MethodName: MakeChoice
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2386,6 +2386,17 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1743028096 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6892740023085268158, guid: 9de95b38c67ab9c4ab441735c834f823, type: 3}
+  m_PrefabInstance: {fileID: 6892740023188952528}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1848422535 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6892740023434074159, guid: 9de95b38c67ab9c4ab441735c834f823, type: 3}
@@ -2427,6 +2438,8 @@ GameObject:
   - component: {fileID: 1868404582}
   - component: {fileID: 1868404581}
   - component: {fileID: 1868404583}
+  - component: {fileID: 1868404585}
+  - component: {fileID: 1868404584}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2477,6 +2490,40 @@ MonoBehaviour:
   date: {fileID: 7651465706879599146, guid: 703b1a1eedbaa4d4f9a1b905ec64f923, type: 3}
   scroll: {fileID: 628718581}
   answerBox: {fileID: 1212035349}
+--- !u!114 &1868404584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868404580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aee341ec35058dd4e995c0d66541e984, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story: {fileID: 1868404585}
+  AnswerHandler: {fileID: 1868404583}
+  optionButtons:
+  - {fileID: 1302667414}
+  - {fileID: 314775077}
+  Name: {fileID: 1743028096}
+--- !u!114 &1868404585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868404580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be2dd51a8db660c4696a1dfb04088047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoPlay: 0
+  StartPassage: start
+  AdditionalCues: []
+  DebugMode: 0
 --- !u!1001 &1910987212
 PrefabInstance:
   m_ObjectHideFlags: 0

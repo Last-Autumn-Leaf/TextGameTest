@@ -7,15 +7,12 @@ using UnityEngine.UI;
 public class topBar : MonoBehaviour
 
 {
-    public Text textComp;
-    public string Name;
     public Image imageComp;
     public Sprite image;
 
     // Start is called before the first frame update
     void Start()
     {
-        textComp.text = Name;
         imageComp.sprite = image;
     }
 

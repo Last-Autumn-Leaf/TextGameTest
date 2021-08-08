@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xsi:noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd"
+    xsi:schemaLocation="UnityEngine.UIElements ../UIElementsSchema/UnityEngine.UIElements.xsd">
+<VisualElement class="parent-container">
+    <VisualElement class="flex-container main">
+        <Image name="buho" />
+
+        <VisualElement name="loginContainer" class="left-side-container">
+            <Label name="signInLabel" />
+            <TextField name="email" />
+            <Label name="emailNotification" class="alert-label" />
+            <TextField name="password" password="true" />
+            <Label name="passwordNotification" class="alert-label" />
+            <Button name="signIn" class="classic-button" />
+            <VisualElement name="progressContainer" />
+
+            <VisualElement name="backContainer">
+                <Button name="back" class="anchor" />
+            </VisualElement>
+        </VisualElement>
+    </VisualElement>
+</VisualElement>
+</UXML>

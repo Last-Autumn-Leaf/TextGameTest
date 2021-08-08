@@ -1,0 +1,380 @@
+{
+    "console": [],
+    "result": {
+        "passages": [
+            {
+                "Name": "start",
+                "Pid": "1",
+                "Tags": "START",
+                "Tokens": [
+                    {
+                        "innerText": "set: $player to false",
+                        "name": "set",
+                        "text": "(set: $player to false)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "player",
+                                "text": "$player",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "false",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "set: $name to \"Sarah\"",
+                        "name": "set",
+                        "text": "(set: $name to \"Sarah\")",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "name",
+                                "text": "$name",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Sarah",
+                                "text": "\"Sarah\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Hello Carl",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Are you free today ?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $player to true",
+                        "name": "set",
+                        "text": "(set: $player to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "player",
+                                "text": "$player",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Yes\",\"agree\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Yes\",\"agree\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Yes",
+                                "text": "\"Yes\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "agree",
+                                "text": "\"agree\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"No\",\"disagree\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"No\",\"disagree\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "No",
+                                "text": "\"No\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "disagree",
+                                "text": "\"disagree\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "agree",
+                "Pid": "2",
+                "Tags": "PLAYER",
+                "Tokens": [
+                    {
+                        "text": "Sure, what you tryna do ?",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "set: $player to false",
+                        "name": "set",
+                        "text": "(set: $player to false)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "player",
+                                "text": "$player",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "false",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Can i call you ? I really need someone to talk to right now...",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "set: $player to true",
+                        "name": "set",
+                        "text": "(set: $player to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "player",
+                                "text": "$player",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Sure wait a sec.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "disagree",
+                "Pid": "3",
+                "Tags": "PLAYER",
+                "Tokens": [
+                    {
+                        "text": "Nah already got plans.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Sorry.",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "set: $player to false",
+                        "name": "set",
+                        "text": "(set: $player to false)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "player",
+                                "text": "$player",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "false",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Ho okay",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "nvm have a good day",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}

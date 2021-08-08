@@ -318,7 +318,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sarah
+  m_Text: Mr. X
 --- !u!1 &6892740023284135835
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,8 +492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d61b0c6cbf42b654da34dd25a9201108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComp: {fileID: 6892740023085268158}
-  Name: Jack
   imageComp: {fileID: 6892740022857006966}
   image: {fileID: 21300000, guid: ee5fe751a341dff45af6b62eb092b181, type: 3}
 --- !u!114 &1308905024020013592
@@ -795,6 +793,22 @@ PrefabInstance:
     - target: {fileID: 3121200367883701573, guid: a6442b8192fe967418262908ad8e612d, type: 3}
       propertyPath: m_Name
       value: ImageBorder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121200368820235180, guid: a6442b8192fe967418262908ad8e612d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121200368820235180, guid: a6442b8192fe967418262908ad8e612d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121200368820235180, guid: a6442b8192fe967418262908ad8e612d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121200368820235180, guid: a6442b8192fe967418262908ad8e612d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6442b8192fe967418262908ad8e612d, type: 3}

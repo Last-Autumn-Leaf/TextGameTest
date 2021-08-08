@@ -1,0 +1,7 @@
+﻿.display-none {
+    display: none;
+}
+
+#Status {
+    color: red;
+}
